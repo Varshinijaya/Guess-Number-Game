@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+            text-align: center;
+            padding:200px;
+           
+        }
+        .box{
+            border:1px solid black;
+            box-shadow: 4px 10px 5px gray;
+            width:400px;
+            height:250px;  
+                 
+        }
+        #btn{
+            background-color: rgb(160, 229, 160);
+            border-radius: 5px;
+        }
+        h1{
+            text-shadow: 2px 2px white;
+        }
+        
+
+    </style>
+</head>
+    
+<body>
+    <div class="box"><h1>Guess the Number from 1 to 5</h1>
+
+<input id="inputBox" placeholder="Enter any Number">
+<button id="btn" onclick="checkTheNumber()" >Check</button>
+
+<p id="result">You are Right/Wrong</p>
+<p id="guessCount">Available Guess:3</p>
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
